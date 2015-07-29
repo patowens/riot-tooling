@@ -1,0 +1,24 @@
+{
+  "name": "riot-tooling",
+  "version": "0.0.0",
+  "description": "Tooling for a riotJS based app",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patowens/riot-tooling.git"
+  },
+  "keywords": [
+    "RiotJS",
+    "Riot",
+    "Seed"
+  ],
+  "author": "Pat Owens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patowens/riot-tooling/issues"
+  },
+  "homepage": "https://github.com/patowens/riot-tooling#readme"
+}
