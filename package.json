@@ -20,5 +20,17 @@
   "bugs": {
     "url": "https://github.com/patowens/riot-tooling/issues"
   },
-  "homepage": "https://github.com/patowens/riot-tooling#readme"
+  "homepage": "https://github.com/patowens/riot-tooling#readme",
+  "dependencies": {
+    "browserify": "^11.0.0",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-sass": "^2.0.4",
+    "gulp-server-livereload": "^1.4.0",
+    "gulp-util": "^3.0.6",
+    "gulp-watch": "^4.3.4",
+    "riot": "^2.2.2",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.0"
+  }
 }
