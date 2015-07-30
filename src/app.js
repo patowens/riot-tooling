@@ -1,5 +1,7 @@
-// require
-var foo = require('./components/foo');
+var riot = require('riot');
+var app = require('./components/app.tag'); // bring in a riot custom tag
+// --------- all components ----------
+var navbar = require('./components/navbar.tag');
 
-// instantiate
-foo();
+// mount riot tags
+riot.mount('div#main', 'app', { title: 'Riot App'});

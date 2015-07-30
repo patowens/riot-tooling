@@ -7,14 +7,16 @@ var server = require('gulp-server-livereload'); // reload on change
 var sass = require('gulp-sass'); 								// process sass
 var concat = require('gulp-concat');						// stitching
 var watch = require('gulp-watch');
+var riotify = require('riotify');
+
 
 var bundler = watchify(browserify({
 	entries: ['./src/app.js'],
-	extensions: ['.js'],
 	debug: true,
 	cache: {},
 	packageCache: {},
-	fullPaths: true
+	fullPaths: true,
+	transform: [riotify]
 }));
 
 function bundle() {
