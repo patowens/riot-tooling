@@ -11,7 +11,7 @@ var riotify = require('riotify');
 
 
 var bundler = watchify(browserify({
-	entries: ['./src/app.js'],
+	entries: ['./src/main.js'],
 	debug: true,
 	cache: {},
 	packageCache: {},

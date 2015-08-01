@@ -1,5 +1,9 @@
 <app>
-	<h3>{ opts.title }</h3>
-	<navbar title="Menu title">Heading to go here</navbar>
+	<navbar></navbar>
+	<div class="container">
+		<div class="row">
+			<todos class="col-md-6" style="padding-left:30px;"></todos>
+		</div>
+	</div>
 </app>
 

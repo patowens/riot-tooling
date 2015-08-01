@@ -1,26 +1,52 @@
 body {
-	padding:20px;
-	background: #f6f6f7;
-	color: #222222;
-	font-family:'Helvetica' Arial;
+	padding-bottom:100px;
 }
 
-.float-right {
-	float:right;
+navbar nav {
+	border-bottom:1px solid #DDDDDD !important;
+	margin-bottom:40px !important;
 }
 
-navbar ul {
+a {
+	cursor: pointer;
 
-	list-style-type:none;
-	margin:0px;
-	padding:0px;
-
-	li {
-		float:left;
-		margin:10px;
+	i {
+		margin-right:8px;
 	}
 }
 
-.is-active a {
-	font-weight: bold;
+.done label {
+	text-decoration: line-through;
+	color:#AAAAAA;
+}
+
+.hide {
+	display:none;
+}
+
+.show {
+	display: block !important;
+}
+
+.fright {
+	float:right;
+}
+
+.todo-action-icon {
+	color:#EEEEEE;
+	font-size:16px;
+	position:relative;
+	top:2px;
+	margin-left:10px;
+
+	&:hover {
+		color:#999999;
+		cursor: pointer;
+	}
+}
+
+.empty-message {
+	padding:60px 0px;
+	color:#CCCCCC;
+	text-align:center;
 }
