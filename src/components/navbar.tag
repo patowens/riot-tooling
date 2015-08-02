@@ -12,26 +12,14 @@
 		      <li each={ link, i in links } class={ is-active: parent.isActiveLink(link.href) }>
 		      		<a href={ link.href } onclick={ parent.handleClickedLink }>{ link.title }</a>
 		      </li>
-		      <!--<li class="dropdown">
-		        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-		        <ul class="dropdown-menu">
-		          <li><a href="#">Action</a></li>
-		          <li><a href="#">Another action</a></li>
-		          <li><a href="#">Something else here</a></li>
-		          <li role="separator" class="divider"></li>
-		          <li><a href="#">Separated link</a></li>
-		        </ul>
-		      </li>
-		      -->
 		    </ul>
 		  </div>
 		</div>
   </nav>
 
 	this.links = [
-		{ title: 'Todos', href: '#/1'},
-		{ title: 'Riot + Famo.us', href: '#/2'},
-		{ title: 'Coverflow', href: '#/3'}
+		{ title: 'Todos', href: '#/todo'},
+		{ title: 'Riot + Famo.us', href: '#/famous'}
 	]
 
 	this.activeLink = '#/2'
@@ -41,6 +29,7 @@
 	}
 
 	handleClickedLink(e) {
+		app.route(e.item.link.href);
 		this.activeLink = e.item.link.href
 	}
 

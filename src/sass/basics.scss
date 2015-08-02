@@ -9,6 +9,7 @@ navbar nav {
 
 a {
 	cursor: pointer;
+	color: rgb(50,151,255);
 
 	i {
 		margin-right:8px;
@@ -49,4 +50,13 @@ a {
 	padding:60px 0px;
 	color:#CCCCCC;
 	text-align:center;
+}
+
+.circle {
+	width:50px;
+	height:50px;
+	margin-top:50px;
+	background-color: #FFAB32;
+	display:inline-block;
+	border-radius:50px;
 }

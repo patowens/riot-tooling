@@ -55,7 +55,6 @@
 	var RiotControl = require('riotcontrol');
 
 	this.on('mount', function() {
-		console.log('mounted');
 		// Trigger init event when component is mounted to page.
 		// Any store could respond to this.
 		RiotControl.trigger('todo_init');

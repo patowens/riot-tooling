@@ -23,6 +23,7 @@
   "homepage": "https://github.com/patowens/riot-tooling#readme",
   "dependencies": {
     "browserify": "^11.0.0",
+    "famous": "^0.7.1",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-sass": "^2.0.4",
